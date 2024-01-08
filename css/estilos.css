@@ -1,0 +1,146 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+/* cada fila una seccion . display flex para las secciones y a la section flex-basics */
+
+/* ------------------------------------------------------------------------------------------ */
+
+/* PARA QUE SEA RESPONSIVE */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1vw;
+}
+/* ------------------------------------------------------------------------------------------- */
+body {
+    font-family: 'Seaweed Script', cursive;
+    font-size: 16px;
+    line-height: 1.6;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    align-items: center;
+    background: linear-gradient(to right, #337579, #63dae3);
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+aside {
+    background: linear-gradient(to right, #6B240C, #E48F45);
+    width: 25%;
+    padding: 2vh;
+    height: 35vh;
+    margin-right: 5%;
+    padding-top: 7vh;
+}
+
+aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside li {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+section {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+
+
+figure {
+    border: 1px solid black;
+    width: 25%;
+    padding: 2%;
+    text-align: center;
+}
+
+figure img {
+    width: 80%;
+    height: 45vh;
+}
+
+
+#dobleFigure {
+    width: 60%;
+}
+
+footer {
+    clear: both;
+    background-color: #265659;
+    color: #fff;
+    height: 20vh;
+    font-size: medium;
+    padding: 2%;
+}
+
+footer address,
+footer h4,
+footer nav {
+    display: inline-flex;
+    vertical-align: center;
+    width: 32%;
+}
+
+footer address {
+    text-align: left;
+}
+
+footer h4 {
+    justify-content: center;
+    text-align: center;
+}
+
+footer nav {
+    justify-content: right;
+    text-align: right;
+}
+
+footer nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 2vh;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline-block;
+    padding: 0;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: #fff;
+}
