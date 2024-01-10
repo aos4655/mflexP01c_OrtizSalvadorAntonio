@@ -1,6 +1,6 @@
 # Practica 01 de Maquetacion 01
 
-## Descripción del proyecto <i class="fa-solid fa-book"></i>
+## Descripción del proyecto :open_book:
 
 Este proyecto es la primera práctica de maquetación, enfocada en desarrollar y diseñar una página web pero usando para maquetar **FLEX**.
 
