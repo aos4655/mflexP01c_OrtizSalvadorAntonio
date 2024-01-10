@@ -29,10 +29,10 @@ Este proyecto solo contiene una verion.
 
 * Antonio Ortiz Salvador
 
-## Licencia
+## Licencia :free:
 
 Este proyecto está bajo la Licencia Gratuita.
 
-## Recursos adicionales
+## Recursos adicionales :electron:
 
 [Enlace Proyecto Git Hub](https://github.com/aos4655/mflexP01c_OrtizSalvadorAntonio)
